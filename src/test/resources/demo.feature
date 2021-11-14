@@ -20,7 +20,7 @@ Feature: Simple math
     Then the result will be different
 
     #update the definitions with proper regex, maybe standard cuke exp is ok too
-  @MOBDTM-5000
+  @MOBDTM-5000 @addition
   Scenario: Add 10 to 5 and expect 15
     * def variable1 = 5
     * def variable2 = 10
@@ -29,7 +29,7 @@ Feature: Simple math
       | variable2 |
     Then the result equals 15
 
-    @MOBDTM-5001
+    @MOBDTM-5001 @addition
   Scenario: Add 10 to 5 and expect 16
     * def variable1 = 5
     * def variable2 = 10
@@ -38,7 +38,7 @@ Feature: Simple math
       | variable2 |
     Then the result equals 16
 
-  @MOBDTM-5002
+  @MOBDTM-5002 @addition
   Scenario: Add 11 to 5 and expect 16
     * def variable1 = 5
     * def variable2 = 11
@@ -47,7 +47,7 @@ Feature: Simple math
       | variable2 |
     Then the result equals 16
 
-  @MOBDTM-5003
+  @MOBDTM-5003 @multiplication
   Scenario: Multiply 5 with 6 and get 30
     * def variable1 = 5
     * def variable2 = 6
@@ -56,7 +56,7 @@ Feature: Simple math
       | variable2 |
     Then the result equals 30
 
-  @MOBDTM-5004
+  @MOBDTM-5004 @multiplication
   Scenario: Multiply 5 with 6 and get 32
     * def variable1 = 5
     * def variable2 = 6
@@ -65,7 +65,7 @@ Feature: Simple math
       | variable2 |
     Then the result equals 32
 
-  @MOBDTM-5005
+  @MOBDTM-5005 @multiplication
   Scenario: Multiply 5 with 7 and get 35
     * def variable1 = 5
     * def variable2 = 7
@@ -74,7 +74,7 @@ Feature: Simple math
       | variable2 |
     Then the result equals 35
 
-  @MOBDTM-5006
+  @MOBDTM-5006 @multiplication
   Scenario: Multiply 6 with 6 and get 36
     * def variable1 = 6
     * def variable2 = 6
