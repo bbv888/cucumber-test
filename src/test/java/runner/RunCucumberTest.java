@@ -19,7 +19,7 @@ public class RunCucumberTest {
     @AfterClass
     public static void syncWithElastic() {
         try {
-            //ElasticSync.main(null);
+            ElasticSync.main(null);
         } catch (Exception e) {
             e.printStackTrace();
         }
