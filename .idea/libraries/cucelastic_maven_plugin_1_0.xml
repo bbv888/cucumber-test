@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="cucelastic-maven-plugin-1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cucelastic-maven-plugin-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="jar://$MAVEN_REPOSITORY$/cucelastic-maven-plugin-1.0.jar!/" />
+    </excluded>
+  </library>
+</component>

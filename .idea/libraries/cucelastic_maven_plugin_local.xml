@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cucelastic-maven-plugin-local">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/lib/cucelastic-maven-plugin-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
