@@ -5,10 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb174f5-66b8-4b45-a51b-05f12138737b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/constants/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/exceptions/CucElasticPluginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/exceptions/filesystem/FileCreationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/exceptions/filesystem/MissingFileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/exceptions/properties/WrongOrMissingPropertyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/filesystem/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/filesystem/FileSystemManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/JsonPojoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/Argument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/DocString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/ResultMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/Step.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/pojo/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/postprocessors/ElementPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/json/postprocessors/ReportPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/logging/CucElasticPluginLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/Feature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/FeatureSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/ReportDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/ResultCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/ResultSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/ScenarioSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/StepSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/TagSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/collections/AllFeaturesCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/collections/AllScenariosCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/collections/AllTagsCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/collections/ScenarioDetailsCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/pojos/collections/SummaryCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/properties/PropertyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/utils/CucElasticPluginReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/araj/cucumber/elasticsearch/utils/CucElasticPluginUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCucumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../investGrowthSimulator" beforeDir="false" afterPath="$PROJECT_DIR$/../investGrowthSimulator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/lib/cucelastic-maven-plugin-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +66,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -156,16 +194,18 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/resources/KX123" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/cucelastic-maven-plugin-1.0.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\vtudo\IdeaProjects\Cucumber\TST\src\main\lib" />
       <recent name="C:\Users\vtudo\IdeaProjects\Cucumber\TST\src\main\java" />
+      <recent name="C:\Users\vtudo\IdeaProjects\Cucumber\TST\src\main\java\com\araj\cucumber\elasticsearch\logging" />
+      <recent name="C:\Users\vtudo\IdeaProjects\Cucumber\TST\src\main\java\com\araj\cucumber\elasticsearch" />
+      <recent name="C:\Users\vtudo\IdeaProjects\Cucumber\TST\src\main\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vtudo\IdeaProjects\Cucumber\TST\src\test\resources" />
@@ -178,7 +218,7 @@
       <recent name="KX123.stepdef" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunCucumberTest">
+  <component name="RunManager" selected="Maven.cucumber-test [clean,test...]">
     <configuration name="ElasticSync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="runner.ElasticSync" />
       <module name="TST" />
@@ -267,7 +307,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TST [-test,-Dtest=RunCucumberTest]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="cucumber-test [clean,test...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -278,8 +318,10 @@
             </option>
             <option name="goals">
               <list>
-                <option value="-test" />
+                <option value="clean" />
+                <option value="test" />
                 <option value="-Dtest=RunCucumberTest" />
+                <option value="-Dmaven.test.failure.ignore=true" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -308,7 +350,7 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Cucumber Java.Scenario: Add 10 to 5 and except 16" />
       <item itemvalue="JUnit.RunCucumberTest" />
-      <item itemvalue="Maven.TST [-test,-Dtest=RunCucumberTest]" />
+      <item itemvalue="Maven.cucumber-test [clean,test...]" />
     </list>
     <recent_temporary>
       <list>
@@ -398,6 +440,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
