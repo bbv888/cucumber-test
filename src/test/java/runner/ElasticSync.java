@@ -34,7 +34,10 @@ public class ElasticSync {
         propertyManager.setSendScenarioSummaryToElasticSearch("true");
         propertyManager.setSendStepSummaryToElasticSearch("true");
         propertyManager.setSendTagSummaryToElasticSearch("true");
-        propertyManager.setSourceJsonReportDirectory("C:\\Users\\vtudo\\IdeaProjects\\Cucumber\\TST\\cucumber.json");
+        String separator = System.getProperty("file.separator");
+        String currentWorkingDir = System.getProperty("user.dir");
+
+        propertyManager.setSourceJsonReportDirectory(currentWorkingDir + separator + "target" + separator + "cucumber.json");
 
         JsonPojoConverter jsonPojoConverter =
                 new JsonPojoConverter(new ReportPostProcessor(),

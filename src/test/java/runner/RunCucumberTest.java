@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/demo.feature"},
         plugin = {"pretty",
                 "html:target/cucumber",
-                "json:cucumber.json"}
+                "json:target/cucumber.json"}
         , tags = "not @norun"
 )
 public class RunCucumberTest {
