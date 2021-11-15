@@ -1,10 +1,8 @@
 package hooks;
 
 import io.cucumber.java.After;
-import io.cucumber.java.AfterAll;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Scenario;
-import runner.ElasticSync;
 
 import java.time.LocalDateTime;
 
@@ -22,8 +20,8 @@ public class Hooks {
 
     @After //TODO:will need to inject console contents into cuke Scenario
     public void afterScenarioHooks(Scenario scenario) {
-        String dataToWrite = ("string entered after scenario: " + scenario.getName()
-                + " at date: " + LocalDateTime.now());
-        scenario.attach(dataToWrite, "mediaTypePlaceholder", "namePlaceholder");
+        String dataToWrite = "string entered after scenario: " + scenario.getName()
+                + " at date: " + LocalDateTime.now();
+        scenario.log(dataToWrite);
     }
 }

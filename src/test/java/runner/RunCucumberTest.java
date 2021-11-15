@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(glue = {"stepdef", "hooks"},
         features = {"src/test/resources/demo.feature"},
         plugin = {"pretty",
-                "html:target/cucumber",
+                "html:target/cucumber.html",
                 "json:target/cucumber.json"}
         , tags = "not @norun"
 )
